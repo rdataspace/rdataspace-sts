@@ -10,375 +10,181 @@
 		<meta name="description" content="An overview of the U.S. Space Shuttle Program with technical details of the Space Transport System (STS) main components.">
 		<title>STS Flight Profile</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="../css/theme.css">
-		<link rel="stylesheet" type="text/css" href="../css/content.css">
-		<link rel="stylesheet" type="text/css" href="../css/grids.css">
-		<link rel="Shortcut Icon" href="../rdata.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="sts.css">
+		<link rel="Shortcut Icon" href="images/icon-rdata.ico" type="image/x-icon">
 	</head>
 
-<body class="backgroundSTS">
+	<body class="background backSTS">
 
-	<div class="gridHeader">
-		<img class="rdataspace-logo" src="../images/logo-rdataspace.jpg" alt="rdataspace logo">
+		<!-- Header -->
 
-		<p class="header">U.S. Space Shuttle (Space Transport System)<br>
-		<span class="header2 center">flight profile</span></p>
+		<div class="gridHeader">
+			<div class="flexRow-sa">
+				<div class="flexCol">
+					<a class="hlink" href="https://creativecommons.org/publicdomain/zero/1.0/" title="External link to license site" target="_blank" style="margin: 1rem 0rem 1.2rem 0rem; font-size: larger;">&#169;</a>
+					<a class="hlink" href="https://rdataspace.github.io/portal/" title="Go to rdataspace Portal">&#9664;</a>
+				</div>	
+				<a class="ilink" href="https://rdataspace.github.io/portal/" title="Go to rdataspace Portal"><img src="images/logo-rdataspace.jpg" alt="rdataspace logo" ></a>
+			</div>
 
-		<img class="header-pic" src="../images/sts-header-pic.jpg" alt="STS Header Pic">
-	</div>	
+			<div class="flexCol">
+				<div class="headerText-1">U.S. Space Shuttle (Space Transport System)</div>
+				<div class="headerText-2">Flight Profile</div>
+				<div class="flexRow-sb" style="width: 50%;">
+					<a class="hlink mb0" href="index.html" title="Go to Introduction page">Introduction</a>
+					<a class="hlink mb0" href="sts-missions.html" title="Go to Missions page">Missions</a>
+					<p>Flight Profile</p>
+					<a class="hlink mb0" href="sts-payloads.html" title="Go to Payloads pages">Payloads</a>
+					<a class="hlink mt0" href="sts-tech.html" title="go to Technical pages">Technical</a>
+				</div>
+			</div>
+			
+			<img src="images/sts-header-pic.png" alt="STS Header Pic" style="margin-left: 30%;">
+		</div>	
 
-	<!-- Menu Bar -->
+		<!-- Introduction -->
+		
+		<section>
+			<div class="grid-2col">
+				
+				<!-- Left col -->
+				
+				<div class="leftCol mb">
+					<p>A shuttle flight, from launch to landing is called a mission and follows a set profile.<br>
+					This page gives main steps in a typical Space Shuttle mission. Details of some of the steps will vary depending on the purpose and objectives of the mission.</p>
+					<p style="line-height: 1.5em;">All flights, however, include the following main steps:<br>
+					<span class="color">1. Launch:</span> - Orbiter, Solid Rocket Boosters and External Tank.<br>
+					<span class="color">2. First Stage Ascent:</span> - Orbiter main engines and Solid Rocket Boosters operating.<br>
+					- Solid Rocket Boosters separate and parachute to spashdown in the ocean.<br>
+					<span class="color">3. Second Stage Ascent:</span> - Orbiter main engines operating.<br>
+					- Orbiter main engines cut-off and External tank separates.<br>
+					- The two orbital manoeuvring system engines are fired for orbital insertion.<br>	
+					<span class="color">4. Orbit:</span> - Orbiter in free flight.<br>
+					- On-orbit operations are performed.<br>
+					<span class="color">5. De-Orbit:</span> - Orbital manoeuvring engines fired to slow Orbiter for re-entry.<br>
+					<span class="color">6. Landing:</span> - Orbiter glides, un-powered, to a runway landing.</p>
 
-	<div class="gridMenu menuBar stick">
+					<div class="barH2" style="margin-bottom: 1rem;"><h2>Typical Flight - Main Steps</h2>
+					</div>
 
-		<!-- Home button 1 -->
+					<!-- 1. Launch -->
 
-		<div class="homeButton">
-			<a class="alink" href="http://rdata.x10.mx/" title="rdataspace Home">Home</a>
-		</div>
-
-		<!-- Up button 2 -->
-
-		<div class="upButton">
-			<a class="alink" href="#" title="Top of page">Top&nbsp;&nbsp;&#8420;</a>
-		</div>
-	
-		<!-- Main Menu button 3 -->
-
-		<div class="menuButton">
-			<p class="color mt0">Main Pages</p>
-			<div class="menuList">
-				<ul class="blank">
-					<li class="menu-heading">Main Pages</li>
-
-					<li><a class="mlink" href="sts-intro.html" title="Introduction">Introduction</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Introduction</p>
-								<p class="info-note-text">The introduction to this article, including an overview of the STS and a list of the main pages.</p>
-							</div>
-						</div>
-					</li>
+					<figure class="fr ml">
+						<img class="shadow-gold" src="images/flight-profile-discovery-launch.jpg" alt="Shuttle Discovery Launch">
+						<figcaption>
+							Shuttle Discovery Launch
+						</figcaption>
+					</figure>
 					
-					<li><a class="mlink" href="sts-missions.html" title="Mission List">Missions</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Missions</p>
-								<p class="info-note-text">lists all the shuttle missions in chronological order, including the type of mission and the primary payloads.</p>
-							</div>
-						</div>
-					</li>
+					<div class="barH3" style="width: 73%;"><h3>1. Launch</h3>
+					</div>
+					<p>The space shuttle is launched in a vertical position, with thrust provided by two solid rocket boosters, called the first stage, and three space shuttle main engines in the orbiter, called the second stage. The shuttle main engines are supplied with fuel from the External Tank. At lift off, both the boosters and main engines are operating.</p>
+					<p>To achieve orbit, the shuttle must accelerate from zero to a speed of almost 28,968 kph, a speed nine times as fast as the average rifle bullet. To travel that fast, it must reach an altitude above most of Earth's atmosphere so that friction with the air will not slow it down or over heat it.</p>
+					<figure class="fl mr">
+						<img class="shadow-gold" src="images/flight-profile-discovery-srb-sep.jpg" alt="Shuttle Discovery SRB separation">
+						<figcaption>
+							Discovery SRB Separation 
+						</figcaption>
+					</figure>
+					<p>The journey starts relatively slowly:<br>
+					at lift off, the shuttle weighs more than 2.04 million kilograms and it takes eight seconds for the engines and boosters to accelerate it to 161 kph. After the first minute the shuttle is traveling more than 1,609 kph.</p>
 
-					<li class="on-page">Flight Profile</li>
+					<!-- 2. First Stage Ascent -->
 
-					<li class="menu-heading2">Payloads:</li>
+					<div class="barH3" style="width: 73%; margin: 0rem 0rem 1rem 12.5rem;"><h3>2. First Stage Ascent</h3>
+					</div>
+					<p>Two minutes into the flight the shuttle is about 45 km high and traveling more than 4,828 kph. The propellant in the two boosters is now exhausted and the booster casings are jettisoned to parachute into the Ocean. They are then recovered by ships for refurbishment and re-use.</p>
 
-					<li><a class="mlink" href="sts-payloads-introduction.html" title="Introduction">- Introduction</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Introduction</p>
-								<p class="info-note-text">The primary payloads carried on all STS missions. Payloads are divided into categories listed in the menu.</p>
-							</div>
-						</div>
-					</li>
+					<!-- 3. Second Stage Ascent -->
 
-					<li><a class="mlink" href="sts-payloads-facilities.html" title="Facilities">- Facilities</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Facilities</p>
-								<p class="info-note-text">STS missions used to carry various facility payloads.</p>
-							</div>
-						</div>
-					</li>
+					<div class="barH3"><h3>3. Second Stage Ascent</h3>
+					</div>
+					<p>The three space shuttle main engines, attached to the rear of the shuttle orbiter, continue to fire until about 8.5 minutes after lift off, burning a half-million gallons of liquid propellant from the external fuel tank as the shuttle accelerates. The engines' exhaust is primarily water vapour and generate over 37 million horsepower as they push the shuttle toward orbit.</p>
+					<p>Eight and a half minutes after launch, with the shuttle traveling 29,000 kph, the engines shut down as they use the last of their fuel. A few seconds after the engines stop, the external fuel tank is jettisoned from the shuttle. This tank is the only part of the shuttle that is not reused and burns up as it re-enters the atmosphere.</p>
 
-					<li><a class="mlink" href="sts-payloads-astronomy.html" title="Astronomy">- Astronomy</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Astronomy</p>
-								<p class="info-note-text">The astronomical instruments carried on STS missions.</p>
-							</div>
-						</div>
-					</li>
+					<!-- 4. Orbit -->
 
-					<li><a class="mlink" href="sts-payloads-satellites.html" title="Satellite Deployment">- Satellite Deployment</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Satellite Deployment</p>
-								<p class="info-note-text">The Satellites Deployed on STS missions.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-payloads-solar-system.html" title="Solar System">- Solar System</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Solar System</p>
-								<p class="info-note-text">Solar system research done on STS missions.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-payloads-space-environment.html" title="Space Environment">- Space Environment</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Space Environment</p>
-								<p class="info-note-text">Space environment research payloads carried on STS missions.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-payloads-stations.html" title="Space Stations">- Space Stations</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Space Stations</p>
-								<p class="info-note-text">STS missions used to support the Mir Space Station and the International Space Station.</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- Tech Menu button 4 -->
-
-		<div class="menuButton-tech">
-			<p class="color mt0">Technical Pages</p>
-			<div class="menuList-tech">
-				<ul class="blank">
-					<li class="menu-heading">Technical Pages</li>
-
-					<li><a class="mlink" href="sts-tech-orbiter.html" target="_blank" title="Orbiter Technical">Orbiter</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Orbiter</p>
-								<p class="info-note-text">Outlines the technical details of the orbiter vehicle, with diagrams and images.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-tech-boosters.html" target="_blank" title="Booster and External Tank Technical">Boosters</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Boosters</p>
-								<p class="info-note-text">Outlines the technical details of the solid rocket boosters, with diagrams and images.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-tech-ext-tank.html" target="_blank" title="Booster and External Tank Technical">External Tank</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">External Tank</p>
-								<p class="info-note-text">Outlines the technical details of the external fuel tank, with diagrams and images.</p>
-							</div>
-						</div>
-					</li>
-
-					<li><a class="mlink" href="sts-tech-facilities.html" target="_blank" title="Payload Bay Facilities">Facilities</a>
-						<div class="info-note-drop">
-							<span class="info-symbol">&nbsp;&#8505;&nbsp;</span>
-							<div class="info-note">
-								<p class="info-note-heading">Facilities</p>
-								<p class="info-note-text">Outlines the technical details of the re-usable facilities carried in the orbiter payload bay, with diagrams and images.</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- Section button 5 -->
-
-		<div class="sectionButton">
-			<p class="color mt0">Page Sections</p>
-			<div class="sectionList">
-				<ul class="blank">
-					<li class="menu-heading">Page Sections</li>
-					<li><a class="mlink" href="#steps" title="This page Flight Main Steps">Flight Main Steps</a></li>
-					<li><a class="mlink" href="#table" title="This page Flight Activities Table">Flight Activities Table</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- Ref button 6 -->
-
-		<div class="refButton">
-			<p class="color mt0">References</p>
-			<div class="refList">
-				<ul class="blank">
-					<li class="ref-heading">References</li>
-					<li><a class="rlink" type="external" href="https://www.nasa.gov/mission_pages/shuttle/main/index.html" target="_blank" title="External Link">NASA - Shuttle</a></li>
-					<li><a class="rlink" type="external" href="https://spaceflight.nasa.gov/shuttle/reference/shutref/" target="_blank" title="External Link">NASA - Shuttle Manual</a></li>
-					<li><a class="rlink" type="external" href="https://en.wikipedia.org/wiki/Space_Shuttle" target="_blank" title="External Link">Wikipedia</a></li>
-					<li><a class="rlink" type="external" href="http://www.spacefacts.de/english/flights.htm" target="_blank" title="External Link">Space Facts</a></li>
-					<li><a class="rlink" type="external" href="http://space.skyrocket.de/doc_lau/sts.htm" target="_blank" title="External Link">Gunter's Space Page</a></li>
-					<li><a class="rlink" type="external" href="http://www.astronautix.com/s/spaceshuttle.html" target="_blank" title="External Link">Encyclopedia Astronautica</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- copyright 7 -->
-
-		<div class="copyright">&copy;&nbsp;<em>&nbsp;rdata&nbsp;<sub>space</sub></em>&nbsp;&nbsp;<small>2019-10</small>
-		</div>
-
-	</div>
-
-	<!-- Introduction -->
-	
-	<section>
-
-		<div class="grid-1col">
-			<div class="main-pane rds-tlr">
-				<img class="fr ml mb" src="images/flight-profile.png" alt="Flight Profile">
-				<p class="mt0">A shuttle flight, from launch to landing is called a mission and follows a set profile.	This page gives main steps in a typical Space Shuttle mission. Details of some of the steps will vary depending on the purpose and objectives of the mission.</p>
-				<p class="line-height2">All flights, however, include the following main steps:<br>
-				<span class="color">1. Launch:</span> - Orbiter, Solid Rocket Boosters and External Tank.<br>
-				<span class="color">2. First Stage Ascent:</span> - Orbiter main engines and Solid Rocket Boosters operating.<br>
-				- Solid Rocket Boosters separate and parachute to spashdown in the ocean.<br>
-				<span class="color">3. Second Stage Ascent:</span> - Orbiter main engines operating.<br>
-				- Orbiter main engines cut-off and External tank separates.<br>
-				- The two orbital manoeuvring system engines are fired for orbital insertion.<br>	
-				<span class="color">4. Orbit:</span> - Orbiter in free flight.<br>
-				- On-orbit operations are performed.<br>
-				<span class="color">5. De-Orbit:</span> - Orbital manoeuvring engines fired to slow Orbiter for re-entry.<br>
-				<span class="color">6. Landing:</span> - Orbiter glides, un-powered, to a runway landing.</p>
-				<p class="line-height2">More information is given in the sections below:-<br>
-				<a class="alink" href="sts-profile.html#steps" target="_self" title="Flight Main Steps">Flight Main Steps</a> - Details of each of the six main steps.<br> 
-				<a class="alink" href="sts-profile.html#table" target="_self" title="Flight Activities Table">Flight Activities Table</a> - A time-line of a typical shuttle mission.</p>
-			</div>
-		</div>
-
-		<div id="steps" class="main-pane mb pt0 rds-blr">&nbsp;
-		</div>
-	</section>
-	
-
-	<section>
-
-		<div class="header-bar"><h1>Flight Main Steps</h1>
-		</div>
-
-		<div class="main-pane">
-		</div>
-	
-		<div class="grid-2col">
-
-			<!-- 1. Launch -->
-
-			<div class="main-pane pt0 bdr">
-				<div class="header-bar2"><h2>1. Launch</h2>
+					<div class="barH3"><h3>4. Orbit</h3>
+					</div>
+					<p>After the main engines shut down, the shuttle is in an elliptical orbit that would cause it to re-enter the atmosphere and be destroyed, like the External Tank. Therefore When the shuttle has reached the highest point of the orbit, 35 minutes after the main engines have shut down, the two orbital manoeuvring system engines are fired for three minutes.</p>
+					<p>This circularizes the shuttle's orbit at a safe altitude to keep it above the atmosphere.</p>
+					<p>The orbital manoeuvring system engines are located on the left and right side of the shuttle's tail. They use two propellants that automatically burn whenever they contact one another.</p>
+					<p>The shuttle is the only spacecraft ever built that can retrieve large satellites from orbit and bring them back to Earth. It can also carry large modules into orbit and dock them to a space station.</p>
+					<p>To do these operation the Shuttle uses the Canadian-built robotic arm, called the Remote Manipulator System. The arm is operated by Shuttle crews to latch onto the object to move it into or out of the Shuttle payload bay.</p>
+					<p>This arm, mounted on the left-hand edge of the payload bay, can also manoeuver space walking astronauts into positions for satellite and space station repairs and maintenance.</p>
+					<figure class="fl mr mt">
+					<img class="shadow-gold" src="images/node-harmony-shuttle-photo-drawing.jpg" alt="Shuttle Discovery with ISS Node Harmony." width="100%">
+						<figcaption>
+							Shuttle Discovery with Node Harmony being delivered to the International Space Station.
+						</figcaption>
+					</figure>
 				</div>
-				<p>The space shuttle is launched in a vertical position, with thrust provided by two solid rocket boosters, called the first stage, and three space shuttle main engines in the orbiter, called the second stage. The shuttle main engines are supplied with fuel from the External Tank. At lift off, both the boosters and main engines are operating.</p>
-				<figure class="fl mr">
-					<img class="shadow-gold" src="images/flight-profile-discovery.jpg" alt="Shuttle Launch and SRB Separation">
-					<figcaption>
-						Shuttle Discovery<br>
-						Launch (left) and SRB Separation (right)
-					</figcaption>
-				</figure>
-				<p>To achieve orbit, the shuttle must accelerate from zero to a speed of almost 28,968 kph, a speed nine times as fast as the average rifle bullet.</p>
-				<p>To travel that fast, it must reach an altitude above most of Earth's atmosphere so that friction with the air will not slow it down or over heat it.</p>
-				<p>The journey starts relatively slowly:<br>
-				 at lift off, the shuttle weighs more than 2.04 million kilograms and it takes eight seconds for the engines and boosters to accelerate it to 161 kph.</p>
-				 <p>After the first minute the shuttle is travelling more than 1,609 kph.</p>
-			
-				<!-- 2. First Stage Ascent -->
+				
+				<!-- Right col -->
 
-				<div class="header-bar2"><h2>2. First Stage Ascent</h2>
+				<div class="rightCol">
+					<img class="mb" src="images/flight-profile.png" alt="Flight Profile Diagram">
+
+					<!-- 5. De-Orbit -->
+				
+					<div class="barH3"><h3>5. De-Orbit</h3>
+					</div>
+					<p class="padt">To return to Earth, the shuttle is rotated tail first into the direction of travel to prepare for the de-orbit burn of the orbital manoeuvring system engines. This engine firing, usually about three minutes long, slows the shuttle by only about 300kph, but it is enough that it begins to descend toward the atmosphere.</p>
+					<p>The engine firing takes place usually half a world away from the intended landing site. The rest of the slowing down for descent uses only the drag produced by the atmosphere. The aft steering jets are used to control the shuttle's orientation as it descends into the atmosphere.</p> 
+					<p>Around 25 minutes after the de-orbit burn the shuttle descends to a point where it first encounters the effects of the atmosphere, usually at an altitude of about 129 km and a range of more than 8,047 km from the landing site.</p>
+					<p>Before the shuttle encounters the atmosphere, leftover fuel is burned from the forward reaction control system steering jets as a safety precaution.</p>
+					<p>Before the shuttle reaches the upper atmosphere it is oriented with the nose angled up about 40 degrees from horizontal and its wings level. This orientation keeps the thermal tiles on the underside facing the majority of the heat generated by its encounter with the atmosphere. The heat can range as high as 1,648.9 degrees Celsius on the leading edges of the wings and nose.</p>
+
+					<!-- 6. Landing -->
+
+					<div class="barH3"><h3>6. Landing</h3>
+					</div>
+					<img class="fr ml mt" src="images/orbiter-discovery-landing.jpg" alt="Shuttle Discovery Landing">
+					<p>As the shuttle descends into the atmosphere it begins a transition from spacecraft to aircraft. Its aero-surfaces, the wing flaps and rudder, gradually become active as air pressure builds and the steering jets turn off automatically.</p>
+					<p>The shuttle then performs a series of four steep banks, rolling over as much as 80 degrees to one side or the other, to slow down. The series of banks gives the shuttle's ground track toward landing an appearance similar to a highly elongated letter "S".</p>
+					<p>Approach to the landing site uses the following aids to navigation:</p>
+					<p>* A radio beacon from the Tactical Air Navigation System, or TACAN, provides updated bearing information to the shuttle to aid in steering toward the runway.</p>
+					<p>* Two air data probes are deployed from either side of the nose of the shuttle as it continues toward landing and its speed drops to less than three times the speed of sound, or Mach 3. These probes provide supplemental information on the airspeed and altitude derived from the outside barometric pressure and wind speed.</p>
+					<p>* The shuttle's flight control computers are in control of the spacecraft until it is about 40 km from touchdown.</p>
+					<p>* The commander takes over manual control when the shuttle's speed drops below the speed of sound and is at an altitude of 15,240 meters (50,000 feet).</p>
+					<p>* The Microwave Scanning Beam Landing system which is installed at shuttle landing sites is used as an approach aid.</p>
+					<p>* The commander normally flies the shuttle around an imaginary cylinder to align with the runway.</p>
+					<p>* The shuttle then begins a steep descent with the nose angled as much as 19 degrees down from horizontal, a glide slope that is seven times as steep as the average commercial airliner landing. During the final approach, the shuttle drops toward the runway 20 times faster than a commercial airliner as its rate of descent and airspeed increase.</p>
+					<p>* The commander pulls up the nose and slows the rate of descent when the shuttle is less than 610 meters (2,000 feet) above the ground. At this point, the pilot deploys the landing gear and the shuttle touches down.</p>
+					<p class="mb0">* After touchdown, the pilot deploys a drag chute from a compartment located just below the tail and the commander begins to drop the shuttle's nose gear slowly toward the runway. The drag chute is then jettisoned before the wheels come to a stop to ensure that it falls clear of the shuttle.<a class="hlink fr" href="#" title="Top of page">&nbsp;&#9650;&nbsp;</a></p>
 				</div>
-				<p>Two minutes into the flight the shuttle is about 45 km high and travelling more than 4,828 kph. The propellant in the two boosters is now exhausted and the booster casings are jettisoned to parachute into the Atlantic Ocean and be recovered by ships for re-use.</p>
+			</div>
+		</section>
 
-				<!-- 3. Second Stage Ascent -->
-
-				<div class="header-bar2"><h2>3. Second Stage Ascent</h2>
-				</div>
-				<p>The three space shuttle main engines, attached to the rear of the shuttle orbiter, continue to fire until about 8.5 minutes after lift off, burning a half-million gallons of liquid propellant from the external fuel tank as the shuttle accelerates. The engines' exhaust is primarily water vapour and generate over 37 million horsepower as they push the shuttle toward orbit.</p>
-				<p>Eight and a half minutes after launch, with the shuttle travelling 29,000 kph, the engines shut down as they use the last of their fuel. A few seconds after the engines stop, the external fuel tank is jettisoned from the shuttle. This tank is the only part of the shuttle that is not reused and burns up as it re-enters the atmosphere.</p>
-
-				<!-- 4. Orbit -->
-
-				<div class="header-bar2"><h2>4. Orbit</h2>
-				</div>
-				<p>After the main engines shut down, the shuttle is in an elliptical orbit that, if nothing changed, would cause it to re-enter the atmosphere like the External Tank. When the shuttle has reached the highest point of the orbit, 35 minutes after the main engines have shut down, the two orbital manoeuvring system engines are fired for three minutes.</p>
-				<img class="fl mr mb" src="sts-images/shuttle-discovery-harmony.jpg" alt="Shuttle Discovery Orbit">
-				<p>This circularizes the shuttle's orbit at a safe altitude to keep it above the atmosphere. The orbital manoeuvring system engines are located on the left and right side of the shuttle's tail. They use two propellants that automatically burn whenever they contact one another.</p>
-				<p>The shuttle is the only spacecraft ever built that can retrieve large satellites from orbit and bring them back to Earth. Using the Canadian-built robotic arm, called the Remote Manipulator System, shuttle crews can move large objects into or out of the payload bay.</p>
-				<p>This arm, mounted on the left-hand edge of the payload bay, can also manoeuvre space walking astronauts into positions for satellite and space station repairs and maintenance.</p>
+	<!-- Flight Activities Table -->
+		
+		<section>
+			<div class="barH2"><h2>Flight Activities Table</h2>
 			</div>
 			
-			<!-- 5. De-Orbit -->
-
-			<div class="main-pane pt0">
-				<div class="header-bar2"><h2>5. De-Orbit</h2>
-				</div>
-				<p>To return to Earth, the shuttle is rotated tail first into the direction of travel to prepare for the de-orbit burn of the orbital manoeuvring system engines. This engine firing, usually about three minutes long, slows the shuttle by only about 300kph, but it is enough that it begins to descend toward the atmosphere.</p>
-				<p>The engine firing takes place usually half a world away from the intended landing site. The rest of the slowing down for descent uses only the drag produced by the atmosphere. The aft steering jets are used to control the shuttle's orientation as it descends into the atmosphere.</p> 
-				<p><img class="fr ml mb" src="sts-images/shuttle-discovery-gliding.jpg" alt="Shuttle Discovery Gliding">Around 25 minutes after the de-orbit burn the shuttle descends to a point where it first encounters the effects of the atmosphere, usually at an altitude of about 129 km and a range of more than 8,047 km from the landing site.</p>
-				<p>Before the shuttle encounters the atmosphere, leftover fuel is burned from the forward reaction control system steering jets as a safety precaution.</p>
-				<p>Before the shuttle reaches the upper atmosphere it is oriented with the nose angled up about 40 degrees from horizontal and its wings level. This orientation keeps the thermal tiles on the underside facing the majority of the heat generated by its encounter with the atmosphere. The heat can range as high as 1,648.9 degrees Celsius on the leading edges of the wings and nose.</p>
-
-				<!-- 6. Landing -->
-
-				<div class="header-bar2"><h2>6. Landing</h2>
-				</div>
-				<img class="fr ml mt" src="sts-images/shuttle-discovery-landing.jpg" alt="Shuttle Discovery Landing">
-				<p>As the shuttle descends into the atmosphere it begins a transition from spacecraft to aircraft. Its aero-surfaces, the wing flaps and rudder, gradually become active as air pressure builds and the steering jets turn off automatically.</p>
-				<p>The shuttle then performs a series of four steep banks, rolling over as much as 80 degrees to one side or the other, to slow down. The series of banks gives the shuttle's ground track toward landing an appearance similar to a highly elongated letter "S".</p>
-				<p>Approach to the landing site uses the following aids to navigation:</p>
-				<p>* A radio beacon from the Tactical Air Navigation System, or TACAN, provides updated bearing information to the shuttle to aid in steering toward the runway.</p>
-				<p>* Two air data probes are deployed from either side of the nose of the shuttle as it continues toward landing and its speed drops to less than three times the speed of sound, or Mach 3. These probes provide supplemental information on the airspeed and altitude derived from the outside barometric pressure and wind speed.</p>
-				<p>* The shuttle's flight control computers are in control of the spacecraft until it is about 40 km from touchdown.</p>
-				<p>* The commander takes over manual control when the shuttle's speed drops below the speed of sound and is at an altitude of 15,240 meters (50,000 feet).</p>
-				<p>* The Microwave Scanning Beam Landing system which is installed at shuttle landing sites is used as an approach aid.</p>
-				<p>* The commander normally flies the shuttle around an imaginary cylinder to align with the runway.</p>
-				<p>* The shuttle then begins a steep descent with the nose angled as much as 19 degrees down from horizontal, a glide slope that is seven times as steep as the average commercial airliner landing. During the final approach, the shuttle drops toward the runway 20 times faster than a commercial airliner as its rate of descent and airspeed increase.</p>
-				<p>* The commander pulls up the nose and slows the rate of descent when the shuttle is less than 610 meters (2,000 feet) above the ground. At this point, the pilot deploys the landing gear and the shuttle touches down.</p>
-				<p>* After touchdown, the pilot deploys a drag chute from a compartment located just below the tail and the commander begins to drop the shuttle's nose gear slowly toward the runway. The drag chute is then jettisoned before the wheels come to a stop to ensure that it falls clear of the shuttle.</p>
-			</div>
-		</div>
-	
-		<div id="table" class="main-pane mb rds-blr">
-		</div>
-
-	</section>
-
-<!-- Flight Activities Table -->
-	
-	<section>
-
-		<div class="header-bar"><h1>Flight Activities Table</h1>
-		</div>
-
-		<div class="grid-1col">
-			<div class="main-pane">
-
+			<div class="oneCol">
 				<p class="main-text">The following table gives a time-line of the main activities in each step of a typical shuttle flight.</p>
+				
+				<!-- Table Header Sticky -->
+
+				<div id="1981" class="stick mt">
+					<table class="tableHead">
+						<tr>
+							<td class="tdHead" width="150rem" >Step</td>
+							<td class="tdHead" width="140rem">Sequence</td>
+							<td class="tdHead" width="1195rem">Activity</td>
+						</tr>
+					</table>
+				</div>
+									
+				<!-- Table Body -->
 
 				<table>
 
 					<tr>
-						<td class="td-head">Step</td>
-						<td class="td-head">Sequence</td>
-						<td class="td-head">Activity</td>
-					</tr>
-
-					<tr>
-						<td rowspan="6">Launch</td>
-						<td>T minus 20 mins</td>
-						<td>Pre-launch functions are controlled by ground computer network at launch site.</td>
+						<td width="150rem" rowspan="6">Launch</td>
+						<td width="140rem">T minus 20 mins</td>
+						<td width="1195rem">Pre-launch functions are controlled by ground computer network at launch site.</td>
 					</tr>
 
 					<tr>
@@ -565,25 +371,19 @@
 						<td>Toxic residue is removed from the shuttles external surfaces before the crew exits.</td>
 					</tr>
 
-				</table>
+					</table>
+				</div>	
 			</div>
+		</section>
+
+		<!-- Footer Banner -->
+
+		<div class="footBanner flexRow-sa">
+			<a class="hlink" href="#" title="Top of page"><em>&nbsp;rdata&nbsp;<sub>space</sub></em>&nbsp;&nbsp;<small>2022-06</small>&nbsp;&nbsp;&#9650;&nbsp;</a>
 		</div>
+	
+		<!-- End -->
 
-		<div class="grid-1col">
-			<div class="main-pane rds-blr">
-			</div>
-		</div>
-
-	</section>
-
-	<!-- Footer Banner, Spacer -->
-
-	<div class="foot-banner">
-		end of page
-	</div>
-
-	<!-- End -->
-
-</body>
+	</body>
 </html>
 
